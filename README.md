@@ -50,29 +50,29 @@ VALID - [72, 200] =>             [44 , 28]
 
 <h2>Test Examples for RSPEC:</h2>
 
-Test.describe("Basic tests") do
-Test.it("Valid number of animals") do
-Test.assert_equals(animals(72, 200), [44, 28])
-Test.assert_equals(animals(116, 282), [91, 25])
-Test.assert_equals(animals(12, 24), [12, 0])
-Test.assert_equals(animals(6, 24), [0, 6])
-Test.assert_equals(animals(344, 872), [252, 92])
-Test.assert_equals(animals(158, 616), [8, 150])
-end
-
-Test.it("Invalid number of animals") do
-Test.assert_equals(animals(25, 555), "No solutions")
-Test.assert_equals(animals(12, 25), "No solutions")
-Test.assert_equals(animals(54, 956), "No solutions")
-Test.assert_equals(animals(5455, 54956), "No solutions")
-end
-
-Test.it("Edge cases") do
-Test.assert_equals(animals(0, 0), [0, 0])
-Test.assert_equals(animals(-1, -1), "No solutions")
-Test.assert_equals(animals(500, 0), "No solutions")
-Test.assert_equals(animals(0, 500), "No solutions")
-Test.assert_equals(animals(-45, 5), "No solutions")
-Test.assert_equals(animals(5, -55), "No solutions")
-end
-end
+<p>Test.describe("Basic tests") do</p>
+<p>Test.it("Valid number of animals") do</p>
+<p>Test.assert_equals(animals(72, 200), [44, 28])</p>
+<p>Test.assert_equals(animals(116, 282), [91, 25])</p>
+<p>Test.assert_equals(animals(12, 24), [12, 0])</p>
+<p>Test.assert_equals(animals(6, 24), [0, 6])</p>
+<p>Test.assert_equals(animals(344, 872), [252, 92])</p>
+<p>Test.assert_equals(animals(158, 616), [8, 150])</p>
+<p>end</p>
+</br>
+<p>Test.it("Invalid number of animals") do</p>
+<p>Test.assert_equals(animals(25, 555), "No solutions")</p>
+<p>Test.assert_equals(animals(12, 25), "No solutions")</p>
+<p>Test.assert_equals(animals(54, 956), "No solutions")</p>
+<p>Test.assert_equals(animals(5455, 54956), "No solutions")</p>
+<p>end</p>
+</br>
+<p>Test.it("Edge cases") do</p>
+<p>Test.assert_equals(animals(0, 0), [0, 0])</p>
+<p>Test.assert_equals(animals(-1, -1), "No solutions")</p>
+<p>Test.assert_equals(animals(500, 0), "No solutions")</p>
+<p>Test.assert_equals(animals(0, 500), "No solutions")</p>
+<p>Test.assert_equals(animals(-45, 5), "No solutions")</p>
+<p>Test.assert_equals(animals(5, -55), "No solutions")</p>
+<p>end</p>
+<p>end</p>
